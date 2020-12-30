@@ -21,7 +21,7 @@ const imgStyles = {
 const BackgroundImg = () => {
   return (
     <div class="" style={bgStyles}>
-      <img src="https://images.unsplash.com/photo-1556656793-08538906a9f8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" style={imgStyles}/>
+      <img src="https://images.unsplash.com/photo-1556656793-08538906a9f8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="background" style={imgStyles}/>
     </div>
   );
 };
