@@ -2,7 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const navbarStyles = {
-  backgroundColor: '#6954e423'
+  backgroundColor: '#547ae423',
+  height: ''
+}
+
+const navTitleStyles = {
+  fontSize: '2em'
 }
 
 const imgStyles = {
@@ -20,8 +25,8 @@ const Header = () => {
     <nav className="navbar navbar-light" style={navbarStyles}>
       <div className="container">
         <Link to="/" className="navbar-brand" style={brandStyles}>
-          <img src={process.env.PUBLIC_URL + '/logo.png'} alt="logo" class="me-3" style={imgStyles}/>
-          <h1>Favellect</h1>
+          <img src={process.env.PUBLIC_URL + '/logo.png'} alt="logo" className="me-3" style={imgStyles}/>
+          <div style={navTitleStyles}>Favellect</div>
         </Link>
       </div>
     </nav>
