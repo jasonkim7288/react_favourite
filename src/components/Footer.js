@@ -1,29 +1,31 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 const footerStyles = {
-  width: '100vw',
-  height: '100px',
-  bottom: '0',
-  paddingTop: '20px',
-  paddingBottom: '20px',
-  backgroundColor: '#547ae423',
+  width: '100%',
+  height: '80px',
+  marginTop: '90px',
+  backgroundColor: '#b1b1b1',
+};
+
+const contentWrapperStyles = {
+  height: '100%',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
 }
 
 const Footer = () => {
-  const footerRef = useRef(null);
-
-  if(footerRef.current)
-    console.log('footerRef.current.clientHeight:', footerRef.current.clientHeight);
-
   return (
-    <footer style={footerStyles} ref={footerRef}>
-      <div className="container">
-        <Link to="/privacy">
-          <p className="text-center my-3">
-            Privacy Policy
-          </p>
-        </Link>
+    <footer>
+      <div style={footerStyles}>
+        <div className="container" style={contentWrapperStyles}>
+          <Link to="/privacy">
+            <p className="text-center py-3 my-0">
+              Privacy Policy
+            </p>
+          </Link>
+        </div>
       </div>
     </footer>
   );
