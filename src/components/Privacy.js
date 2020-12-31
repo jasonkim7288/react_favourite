@@ -6,7 +6,7 @@ const privacyStyles = {
   paddingRight: '30px',
   marginLeft: 'auto',
   marginRight: 'auto',
-  marginTop: '80px'
+  marginTop: '60px'
 }
 
 const Privacy = () => {

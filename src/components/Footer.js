@@ -5,7 +5,7 @@ const footerStyles = {
   width: '100%',
   height: '80px',
   marginTop: '90px',
-  backgroundColor: '#b1b1b1',
+  backgroundColor: 'white',
 };
 
 const contentWrapperStyles = {
