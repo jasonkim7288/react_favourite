@@ -38,7 +38,7 @@ const languageStyles = {
 }
 
 const Header = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   console.log('i18n:', i18n);
 
@@ -51,7 +51,7 @@ const Header = () => {
       <div className="container" style={navbarContainerStyles}>
         <Link to="/" className="navbar-brand" style={brandStyles}>
           <img src={process.env.PUBLIC_URL + '/logo.png'} alt="logo" style={imgStyles}/>
-          <div style={navTitleStyles}>Favollect</div>
+          <div style={navTitleStyles}>{t('Favollect')}</div>
         </Link>
         <div style={languageStyles}>
           <div className="me-2"><i class="fas fa-globe-asia"></i></div>
