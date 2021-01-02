@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const privacyStyles = {
   maxWidth: '800px',
@@ -10,22 +11,20 @@ const privacyStyles = {
 }
 
 const Privacy = () => {
+  const { t } = useTranslation();
   return (
     <div style={privacyStyles}>
-      <h3>Privacy Policy</h3>
-      <p>We recognize the importance of your privacy, and that you have a right to know how your personal information is collected and used. The Personal Information that we collect are used for providing and improving the app service. We will not use or share your information with anyone except as described in this Privacy Policy. We use google Firebase to collect information for Analytics, Crash report and Adverting. By using Favollect, you agree to this privacy policy.</p>
-      <h5>Analytics</h5>
-      <p>Anonymous information about how you use Favollect is logged for analytics purpose to gain a better understanding of the general app usage and improve Favollect. The collected data does not include information that can be used to personally identify you, but does include basic information such as the device model you are using, operating system version, locale and how long you spent in each app screen.</p>
-      <h5>Crash reports</h5>
-      <p>In the case of a crash, a report is generated and transmitted for review. This report includes non-identifiable information such as when the crash occurred, the version of the app and the software stack trace to identify potential issue. We will not see any information personally identify you.</p>
-      <h5>Advertising</h5>
-      <p className="mb-0">We collect basic information about the display and user clicks of individual ads on device.</p>
-      <p>The advertising shown to you is not personalized.</p>
-      <h5>Changes to this policy</h5>
-      <p>If we decide to change this privacy policy, we will update the Privacy Policy modification date below.</p>
-
-      <p className="mt-5">Last modified 1 Jan, 2021</p>
-
+      <h3>{t('Privacy Policy')}</h3>
+      <p>{t('Privacy Policy main description')}</p>
+      <h5>{t('Analytics')}</h5>
+      <p>{t('Analytics description')}</p>
+      <h5>{t('Crash reports')}</h5>
+      <p>{t('Crash reports description')}</p>
+      <h5>{t('Advertising')}</h5>
+      <p>{t('Advertising description')}</p>
+      <h5>{t('Changes to this policy')}</h5>
+      <p>{t('Changes to this policy description')}</p>
+      <p className="mt-5">{t('Last modified with date')}</p>
     </div>
   );
 };
