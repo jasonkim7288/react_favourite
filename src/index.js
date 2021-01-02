@@ -5,7 +5,7 @@ import App from './App';
 
 ReactDOM.render(
   <Suspense fallback={(
-    <div>Loading~~~</div>
+    <></>
   )} >
     <App />
   </Suspense>

@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 const footerStyles = {
   width: '100%',
   height: '80px',
-  marginTop: '90px',
+  marginTop: '0px',
   backgroundColor: 'white',
 };
 
