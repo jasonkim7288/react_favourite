@@ -35,8 +35,13 @@ const languageStyles = {
   display: 'flex',
   alignItems: 'center',
   alignContent: 'center',
+  justifyContent: 'space-between'
 }
 
+const engStyles = {
+  width: '50px',
+  textAlign: 'center'
+}
 const Header = () => {
   const { t, i18n } = useTranslation();
 
@@ -54,8 +59,8 @@ const Header = () => {
           <div style={navTitleStyles}>{t('Favollect')}</div>
         </Link>
         <div style={languageStyles}>
-          <div className="me-2"><i class="fas fa-globe-asia"></i></div>
-          <div className="me-2 langChange" onClick={() => handleClick('en')}>Eng</div>
+          <div><i class="fas fa-globe-asia"></i></div>
+          <div className="langChange" style={engStyles}onClick={() => handleClick('en')}>Eng</div>
           <div className="langChange" onClick={() => handleClick('ko')}>한국어</div>
         </div>
       </div>

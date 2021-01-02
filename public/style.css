@@ -26,6 +26,7 @@ h5 {
 
 .langChange:hover {
   cursor: pointer;
-  text-shadow: 0 0  20px blue;
+  /* text-shadow: 0 0  20px blue; */
+  font-weight: bold;
 }
 
