@@ -48,7 +48,7 @@ const Header = () => {
 
   return (
     <nav className="navbar navbar-light" style={navbarStyles}>
-      <div className="container-sm" style={navbarContainerStyles}>
+      <div className="container" style={navbarContainerStyles}>
         <Link to="/" className="navbar-brand" style={brandStyles}>
           <img src={process.env.PUBLIC_URL + '/logo.png'} alt="logo" style={imgStyles}/>
           <div style={navTitleStyles}>Favollect</div>
