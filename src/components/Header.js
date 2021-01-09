@@ -56,7 +56,7 @@ const Header = () => {
       <div className="container" style={navbarContainerStyles}>
         <Link to="/" className="navbar-brand" style={brandStyles}>
           <img src={process.env.PUBLIC_URL + '/logo.png'} alt="logo" style={imgStyles}/>
-          <div style={navTitleStyles}>{t('Favollect')}</div>
+          <div style={navTitleStyles}>{t('URL Album')}</div>
         </Link>
         <div style={languageStyles}>
           <div><i class="fas fa-globe-asia"></i></div>

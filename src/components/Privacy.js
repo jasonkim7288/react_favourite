@@ -20,11 +20,11 @@ const Privacy = () => {
       <p>{t('Analytics description')}</p>
       <h5>{t('Crash reports')}</h5>
       <p>{t('Crash reports description')}</p>
-      <h5>{t('Advertising')}</h5>
-      <p>{t('Advertising description')}</p>
+      {/* <h5>{t('Advertising')}</h5>
+      <p>{t('Advertising description')}</p> */}
       <h5>{t('Changes to this policy')}</h5>
       <p>{t('Changes to this policy description')}</p>
-      <p className="mt-5">{t('Last modified with date')}</p>
+      <p className="mt-5">{t('Last modified with the date')}</p>
     </div>
   );
 };
