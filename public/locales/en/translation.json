@@ -1,12 +1,27 @@
 {
   "URL Album": "URL Album",
+
   "Privacy Policy": "Privacy Policy",
-  "Privacy Policy main description": "We recognize the importance of your privacy, and that you have a right to know how your personal information is collected and used. The Personal Information that we collect is used for providing and improving the app service. We will not use or share your information with anyone except as described in this Privacy Policy. We use Google Firebase to collect information for analytics and crash reports. By using URL Album, you agree to this privacy policy.",
-  "Analytics": "Analytics",
-  "Analytics description": "Anonymous information about how you use URL Album is logged for analytics purpose to gain a better understanding of the general app usage and improve URL Album. The collected data does not include information that can be used to personally identify you, but does include basic information such as the device model you are using, operating system version, locale, and how long you spent in each app screen.",
-  "Crash reports": "Crash reports",
-  "Crash reports description": "In the case of a crash, a report is generated and transmitted for review. This report includes non-identifiable information such as when the crash occurred, the version of the app, and the software stack trace to identify potential issues. We will not see any information personally identify you.",
-  "Changes to this policy": "Changes to this policy",
-  "Changes to this policy description": "If we decide to change this privacy policy, we will update the Privacy Policy modification date below.",
-  "Last modified with the date": "Last modified 9 Jan 2021"
+  "Privacy Policy 1": "Effective Date: 2 Mar, 2024",
+  "Privacy Policy 2": "URL Album (\"we,\" \"our,\" or \"us\") respects your privacy. This Privacy Policy explains how we handle user data in our app.",
+
+  "Header 1": "1. Information We Collect",
+  "Details 1-1": "We do not collect, store, or share any personally identifiable information (PII) from users.",
+
+  "Header 2": "2. Third-Party Services",
+  "Details 2-1": "Our app uses third-party services, which may collect usage data for analytics and advertising purposes:",
+  "Details 2-2": "Firebase Analytics – Used to understand app usage trends.",
+  "Details 2-3": "Firebase Crashlytics – Used to detect and diagnose app crashes.",
+  "Details 2-4": "Google AdMob – Used to display advertisements.",
+  "Details 2-5": "These services may collect anonymized data as per their privacy policies. We do not have direct access to or control over this data.",
+
+  "Header 3": "3. How We Use Information",
+  "Details 3-1": "The limited, non-personally identifiable data collected by third-party services is used to:",
+  "Details 3-2": "Improve app performance and stability.",
+  "Details 3-3": "Analyze app usage trends.",
+  "Details 3-4": "Display relevant advertisements.",
+
+  "Header 4": "4. Data Security",
+  "Details 4-1": "We do not store user data on our servers. Data collected by third-party services is managed by their respective privacy policies.",
+  "Details 4-2": "We may update this Privacy Policy from time to time. Any changes will be posted within the App and updated on this page with a revised effective date. By using URL Album, you agree to the terms of this Privacy Policy."
 }
